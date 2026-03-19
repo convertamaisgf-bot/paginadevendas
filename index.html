@@ -4,7 +4,31 @@
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 <title>Presença Digital Profissional — Pacotes</title>
+
+<!-- Meta Pixel Code -->
+<script>
+!function(f,b,e,v,n,t,s)
+{if(f.fbq)return;n=f.fbq=function(){n.callMethod?
+n.callMethod.apply(n,arguments):n.queue.push(arguments)};
+if(!f._fbq)f._fbq=n;
+n.push=n;
+n.loaded=!0;
+n.version='2.0';
+n.queue=[];
+t=b.createElement(e);
+t.async=!0;
+t.src=v;
+s=b.getElementsByTagName(e)[0];
+s.parentNode.insertBefore(t,s)}(window, document,'script',
+'https://connect.facebook.net/en_US/fbevents.js');
+
+fbq('init', '1390666166151479');
+fbq('track', 'PageView');
+</script>
+<!-- End Meta Pixel Code -->
+
 <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,700;0,900;1,700&family=Plus+Jakarta+Sans:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+
 <style>
   :root {
     --bg: #09090b;
@@ -417,6 +441,11 @@
 </head>
 <body>
 
+<noscript>
+  <img height="1" width="1" style="display:none"
+       src="https://www.facebook.com/tr?id=1390666166151479&ev=PageView&noscript=1"/>
+</noscript>
+
 <!-- ══════════════════════ HERO ══════════════════════ -->
 <section class="hero">
   <div class="hero-eyebrow">
@@ -483,7 +512,14 @@
           <li class="pkg-feat"><span class="feat-icon">✦</span> Fica no ar para sempre, sem mensalidade</li>
           <li class="pkg-feat" style="opacity:0.35"><span class="feat-icon">✦</span> Domínio disponível (consulte)</li>
         </ul>
-        <a href="https://wa.me/5521985252497?text=Quero+o+B%C3%A1sico+%F0%9F%91%8B+Vi+sua+p%C3%A1gina+e+quero+saber+mais." class="pkg-cta cta-secondary">Quero conversar →</a>
+        <a
+          href="https://wa.me/5521985252497?text=Quero+o+B%C3%A1sico+%F0%9F%91%8B+Vi+sua+p%C3%A1gina+e+quero+saber+mais."
+          class="pkg-cta cta-secondary wa-track"
+          data-event-name="WhatsAppClick"
+          data-button-name="Pacote Básico"
+        >
+          Quero conversar →
+        </a>
         <div class="pkg-guarantee">✓ Garantia de 7 dias · Entrega em até 2 horas</div>
       </div>
 
@@ -505,7 +541,14 @@
           <li class="pkg-feat"><span class="feat-icon">◆</span> Roteiro de vendas para fechar pelo WhatsApp</li>
           <li class="pkg-feat"><span class="feat-icon">◆</span> Entrega em até 4 horas</li>
         </ul>
-        <a href="https://wa.me/5521985252497?text=Quero+o+Profissional+%F0%9F%91%8B+Vi+sua+p%C3%A1gina+e+quero+saber+mais." class="pkg-cta cta-primary">Quero conversar →</a>
+        <a
+          href="https://wa.me/5521985252497?text=Quero+o+Profissional+%F0%9F%91%8B+Vi+sua+p%C3%A1gina+e+quero+saber+mais."
+          class="pkg-cta cta-primary wa-track"
+          data-event-name="WhatsAppClick"
+          data-button-name="Pacote Profissional"
+        >
+          Quero conversar →
+        </a>
         <div class="pkg-guarantee">✓ Garantia de 7 dias</div>
       </div>
 
@@ -526,7 +569,14 @@
           <li class="pkg-feat"><span class="feat-icon">✦</span> Suporte por 30 dias</li>
           <li class="pkg-feat"><span class="feat-icon">✦</span> Entrega em até 2 dias úteis</li>
         </ul>
-        <a href="https://wa.me/5521985252497?text=Quero+o+Completo+%F0%9F%91%8B+Vi+sua+p%C3%A1gina+e+quero+saber+mais." class="pkg-cta cta-secondary">Quero conversar →</a>
+        <a
+          href="https://wa.me/5521985252497?text=Quero+o+Completo+%F0%9F%91%8B+Vi+sua+p%C3%A1gina+e+quero+saber+mais."
+          class="pkg-cta cta-secondary wa-track"
+          data-event-name="WhatsAppClick"
+          data-button-name="Pacote Completo"
+        >
+          Quero conversar →
+        </a>
         <div class="pkg-guarantee">✓ Garantia de 7 dias</div>
       </div>
 
@@ -619,7 +669,12 @@
 <section class="cta-final" id="contato">
   <h2 class="fade-up">Comece <em>hoje.</em><br>Não amanhã.</h2>
   <p class="fade-up delay-1">Não sabe qual pacote faz mais sentido pro seu negócio? Me manda uma mensagem — em 5 minutos eu te digo exatamente o que você precisa.</p>
-  <a href="https://wa.me/5521985252497?text=Quero+criar+meu+site+%F0%9F%91%8B+Vi+sua+p%C3%A1gina+e+quero+saber+mais." class="cta-final-btn fade-up delay-2">
+  <a
+    href="https://wa.me/5521985252497?text=Quero+criar+meu+site+%F0%9F%91%8B+Vi+sua+p%C3%A1gina+e+quero+saber+mais."
+    class="cta-final-btn fade-up delay-2 wa-track"
+    data-event-name="WhatsAppClick"
+    data-button-name="CTA Final WhatsApp"
+  >
     💬 Falar no WhatsApp agora
   </a>
   <div class="cta-sub fade-up delay-3">Respondo em minutos · Entrega no mesmo dia</div>
@@ -648,6 +703,18 @@
   document.querySelectorAll('.fade-up').forEach(el => {
     el.style.transition = 'opacity 0.6s ease, transform 0.6s ease';
     observer.observe(el);
+  });
+
+  // Rastreamento dos cliques no WhatsApp
+  document.querySelectorAll('.wa-track').forEach(link => {
+    link.addEventListener('click', function() {
+      if (typeof fbq === 'function') {
+        fbq('track', 'Contact');
+        fbq('trackCustom', this.dataset.eventName || 'WhatsAppClick', {
+          button_name: this.dataset.buttonName || 'WhatsApp'
+        });
+      }
+    });
   });
 </script>
 </body>
